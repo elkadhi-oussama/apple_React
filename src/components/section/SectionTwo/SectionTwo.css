@@ -1,0 +1,35 @@
+:root{
+    --border-top-hero: 0.6rem solid #ffffff;
+     --color-title-white:white;
+     --color-title-sub-heading-pink:#fec2eb;
+    --font-size-title-sub-heading-pink: 2.6rem;
+    --font-weight-title-sub-heading-pink:400;
+    --color-cta-link-darker: #2996fd;
+}
+.iphone-13{
+    background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg");
+}
+.hero {
+    height:69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: var(--border-top-hero);
+    border-bottom: var(--border-top-hero);
+}
+.title-white{
+    color:var(--color-title-white);
+}
+.title-sub-heading-pink{
+    color: var(--color-title-sub-heading-pink);
+    font-size: var(--font-size-title-sub-heading-pink);
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight:var(--font-weight-title-sub-heading-pink);
+}
+.cta-link-darker{
+    color: var(--color-cta-link-darker);
+}
+.cta-link-darker:hover{
+    border-bottom: 2px solid var(--color-cta-link-darker);
+}

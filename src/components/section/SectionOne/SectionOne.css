@@ -1,0 +1,54 @@
+:root{
+    --font-sizetitle-heading: 5rem;
+    --font-sizetitle-sub-heading: 2.6rem;
+    --font-weighttitle-sub-heading:400;
+    --color-cta-link:#0569cd;
+    --font-size-cta-link: 2.2rem;
+    --border-bottom-cta-link:  #0569cd
+}
+
+.iphone-13-pro{
+    background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg");
+    margin-top: 4.4rem;
+}
+.hero {
+    height:69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #ffffff;
+    border-bottom: 0.6rem solid #ffffff;
+}
+.iphone-13-pro{
+    border-top: none;
+}
+.title{
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size: var(--font-sizetitle-heading);
+    line-height:1.07143;
+    letter-spacing: -0.005rem;
+}
+.title-sub-heading{
+    font-size: var(--font-sizetitle-sub-heading);
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight:var(--font-weighttitle-sub-heading);
+}
+.cta{
+    text-align: center;
+    margin-top: 2.2rem;
+}
+.cta-link{
+    color: var(--color-cta-link);
+    font-size: var(--font-size-cta-link);
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left:2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid var(--border-bottom-cta-link);
+}
